@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face
+  font-family: Inter
+  src: url(./assets/fonts/InterVariable.woff2)
+
+:root
+  font-family: Inter, sans-serif
+  font-feature-settings: 'liga' 1, 'calt' 1
+
+@supports (font-variation-settings: normal)
+  :root
+    font-family: InterVariable, sans-serif
+
+/* Colors */
+$cream: #FFFBF5
+$dark: #111111
+
+body
+  background-color: $cream
