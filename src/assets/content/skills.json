@@ -1,14 +1,41 @@
 [
   {
     "name": "Programming Languages",
-    "skills": ["Javascript", "Typescript", "Java", "C", "Python", "PHP", "HTML", "CSS", "Sass"]
+    "skills": [
+      "Javascript",
+      "Typescript",
+      "Java",
+      "C",
+      "Python",
+      "PHP",
+      "HTML",
+      "CSS",
+      "Sass"
+    ]
   },
   {
     "name": "Libraries & Frameworks",
-    "skills": ["Angular", "React", "Express.js", "Bulma", "Django", "Pandas", "Pytorch"]
+    "skills": [
+      "Angular",
+      "React",
+      "Express.js",
+      "Bulma",
+      "Django",
+      "Pandas",
+      "Pytorch"
+    ]
   },
   {
     "name": "Tools & Platforms",
-    "skills": ["Git", "GitHub", "Firebase", "Postman", "Datadog", "JIRA", "Docker", "Jenkins"]
+    "skills": [
+      "Git",
+      "GitHub",
+      "Firebase",
+      "Postman",
+      "Datadog",
+      "JIRA",
+      "Docker",
+      "Jenkins"
+    ]
   }
 ]

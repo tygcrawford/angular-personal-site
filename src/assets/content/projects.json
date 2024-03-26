@@ -11,6 +11,12 @@
     "description": "Researched and developed a Python library from scratch using NumPy to explore neural networks independently. Designed for versatile applications, with specific training and testing on the MNIST dataset.",
     "githubURL": "https://github.com/tygcrawford/nnet",
     "imageURL": "https://www.circuitbasics.com/wp-content/uploads/2020/12/image-23.png",
-    "skills": ["Machine Learning", "Neural Networks", "Python", "NumPy", "MatPlotLib"]
+    "skills": [
+      "Machine Learning",
+      "Neural Networks",
+      "Python",
+      "NumPy",
+      "MatPlotLib"
+    ]
   }
 ]

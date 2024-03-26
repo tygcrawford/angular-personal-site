@@ -20,13 +20,10 @@ import { HttpClientModule } from '@angular/common/http';
     ProjectsComponent,
     FooterComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
-  imports: [
-    BrowserModule,
-    HttpClientModule
-  ],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

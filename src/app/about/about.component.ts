@@ -5,7 +5,7 @@ import { About } from '../Content';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.sass']
+  styleUrls: ['./about.component.sass'],
 })
 export class AboutComponent {
   about?: About;
@@ -13,7 +13,7 @@ export class AboutComponent {
   constructor(private contentService: ContentService) {}
 
   ngOnInit() {
-    this.contentService.getAbout().subscribe(about => {
+    this.contentService.getAbout().subscribe((about) => {
       this.about = about;
     });
   }

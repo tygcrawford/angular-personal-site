@@ -1,8 +1,11 @@
 <h3>Experience</h3>
 <div *ngFor="let experience of experiences">
-  <h5>{{experience.role}}</h5>
-  <h6>{{experience.company}}</h6>
-  <span>{{experience.startDate}} - {{experience.endDate}} {{experience.location}}</span>
-  <p>{{experience.description}}</p>
-  <span *ngFor="let skill of experience.skills">{{skill}}&nbsp;</span>
+  <h5>{{ experience.role }}</h5>
+  <h6>{{ experience.company }}</h6>
+  <span>
+    {{ experience.startDate }} - {{ experience.endDate }}
+    {{ experience.location }}
+  </span>
+  <p>{{ experience.description }}</p>
+  <span *ngFor="let skill of experience.skills">{{ skill }}&nbsp;</span>
 </div>

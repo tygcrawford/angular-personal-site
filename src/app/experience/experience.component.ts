@@ -5,7 +5,7 @@ import { ContentService } from '../content.service';
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
-  styleUrls: ['./experience.component.sass']
+  styleUrls: ['./experience.component.sass'],
 })
 export class ExperienceComponent {
   experiences?: Experience[];
@@ -13,8 +13,8 @@ export class ExperienceComponent {
   constructor(private contentService: ContentService) {}
 
   ngOnInit() {
-    this.contentService.getExperience().subscribe(experiences => {
-      this.experiences = experiences
-    })
+    this.contentService.getExperience().subscribe((experiences) => {
+      this.experiences = experiences;
+    });
   }
 }
