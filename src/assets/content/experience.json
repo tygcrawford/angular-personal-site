@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Associate Software Engineer",
+    "company": "Fidelity Investments",
+    "location": "Durham, NC",
+    "startDate": "01-2022",
+    "endDate": "08-2023",
+    "description": "During my tenure, I successfully completed the 3-month LEAP program, honing my teamwork and development skills. Additionally, I engineered a robust internal data product at Fidelity, aggregating diverse and organized data from across the organization. My active participation in cross-functional Scrum teams allowed me to collaborate on complex product development, engaging in iterative Sprints and adaptive responses to evolving requirements. Throughout my career, I consistently demonstrated proficiency in collaboration, whether in-person or in remote work settings",
+    "skills": ["HTML", "SCSS", "Javascript", "Typescript", "Angular", "NgRx", "NPM", "Node.js", "SQL", "GraphQL", "Java", "Spring Boot", "REST API", "Git", "Github", "AWS", "Datadog", "JIRA", "Agile", "SCRUM", "Test Driven Development", "Remote Work", "In-Person Work"]
+  },
+  {
+    "role": "Project Mentor",
+    "company": "UNC-CH Summer of Code",
+    "location": "Chapel Hill, NC",
+    "startDate": "05-2020",
+    "endDate": "07-2020",
+    "description": "I coordinated a team of fellow undergraduate students to design and implement an application connecting companies with talented UNC Computer Science graduates. Additionally, I led debugging efforts and actively contributed to development using technologies like HTML, CSS, JavaScript, React, and Firebase.",
+    "skills": ["Leadership", "Teaching", "HTML", "CSS", "Javascript", "React.js", "Node.js", "Firebase", "Git", "Github"]
+  },
+  {
+    "role": "Data Engineer",
+    "company": "Vital4",
+    "location": "Atlanta, GA",
+    "startDate": "06-2017",
+    "endDate": "08-2017",
+    "description": "I created algorithms for both generalized and specific web scraping, enabling efficient data extraction. Additionally, I effectively utilized an existing SQL database to store the collected data, ensuring seamless access and retrieval for business analytics and reporting purposes.",
+    "skills": ["Data Collection", "Web Scraping", "HTML", "XML", "X-Path", "Objective-C", "SQL", "SCRUM"]
+  }
+]
