@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ContentService } from './content.service';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +7,4 @@ import { ContentService } from './content.service';
 })
 export class AppComponent {
   title = 'angular-personal-site';
-
-  constructor(private contentService: ContentService) {}
-
-  ngOnInit(): void {
-    this.contentService.getContent().subscribe((content) => {
-      console.log(content);
-    })
-  }
 }
