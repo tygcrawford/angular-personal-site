@@ -7,5 +7,5 @@
     {{ experience.location }}
   </span>
   <p>{{ experience.description }}</p>
-  <span *ngFor="let skill of experience.skills">{{ skill }}&nbsp;</span>
+  <app-skills-list [skills]="experience.skills"></app-skills-list>
 </div>

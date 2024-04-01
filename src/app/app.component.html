@@ -1,19 +1,21 @@
 <div
   id="app-wrapper"
-  class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4"
+  class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0"
 >
-  <header
-    id="header-wrapper"
-    class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24"
-  >
-    <app-header></app-header>
-  </header>
-  <main id="content-wrapper" class="pt-24 lg:w-1/2 lg:py-24">
-    <app-about></app-about>
-    <app-experience></app-experience>
-    <app-projects></app-projects>
-    <app-education></app-education>
-    <app-skills></app-skills>
-    <app-footer></app-footer>
-  </main>
+  <div id="flex-wrapper" class="lg:flex lg:justify-between lg:gap-4">
+    <header
+      id="header-wrapper"
+      class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24"
+    >
+      <app-header></app-header>
+    </header>
+    <main id="content-wrapper" class="pt-24 lg:w-1/2">
+      <app-about></app-about>
+      <app-experience></app-experience>
+      <app-projects></app-projects>
+      <app-education></app-education>
+      <app-skills></app-skills>
+      <app-footer></app-footer>
+    </main>
+  </div>
 </div>

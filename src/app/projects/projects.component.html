@@ -3,5 +3,5 @@
   <h5>{{ project.name }}</h5>
   <h6>{{ project.company }}</h6>
   <p>{{ project.description }}</p>
-  <span *ngFor="let skill of project.skills">{{ skill }}&nbsp;</span>
+  <app-skills-list [skills]="project.skills"></app-skills-list>
 </div>

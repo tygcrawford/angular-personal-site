@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SkillsListComponent } from './skills-list/skills-list.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     EducationComponent,
     SkillsComponent,
+    SkillsListComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
