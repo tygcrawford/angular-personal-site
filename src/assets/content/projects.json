@@ -1,0 +1,22 @@
+[
+  {
+    "name": "FrIDA",
+    "company": "Fidelity Investments",
+    "description": "Engaged in full-stack development, including creating a feature to export data to Excel for users, enhancing front-end design, and resolving bug fixes.",
+    "skills": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "name": "Custom Neural Network Library",
+    "company": "Independent Project",
+    "description": "Researched and developed a Python library from scratch using NumPy to explore neural networks independently. Designed for versatile applications, with specific training and testing on the MNIST dataset.",
+    "githubURL": "https://github.com/tygcrawford/nnet",
+    "imageURL": "https://www.circuitbasics.com/wp-content/uploads/2020/12/image-23.png",
+    "skills": [
+      "Machine Learning",
+      "Neural Networks",
+      "Python",
+      "NumPy",
+      "MatPlotLib"
+    ]
+  }
+]
