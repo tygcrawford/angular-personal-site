@@ -1,15 +1,15 @@
-import { HttpClient } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import * as content from './Content';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ContentService {
   private filePath = '../assets/content/';
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getAbout(): Observable<content.About> {
     return this.http.get<content.About>(this.filePath + 'about.json');
@@ -20,7 +20,9 @@ export class ContentService {
   }
 
   getExperience(): Observable<content.Experience[]> {
-    return this.http.get<content.Experience[]>(this.filePath + 'experience.json');
+    return this.http.get<content.Experience[]>(
+      this.filePath + 'experience.json'
+    );
   }
 
   getProjects(): Observable<content.Project[]> {
@@ -28,7 +30,8 @@ export class ContentService {
   }
 
   getSkills(): Observable<content.SkillCategory[]> {
-    return this.http.get<content.SkillCategory[]>(this.filePath + 'skills.json');
+    return this.http.get<content.SkillCategory[]>(
+      this.filePath + 'skills.json'
+    );
   }
-
 }

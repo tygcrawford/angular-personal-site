@@ -1,0 +1,9 @@
+<app-content-wrapper>
+  <app-content-header>Projects</app-content-header>
+  <div *ngFor="let project of projects">
+    <h5>{{ project.name }}</h5>
+    <h6>{{ project.company }}</h6>
+    <p>{{ project.description }}</p>
+    <app-skills-list [skills]="project.skills"></app-skills-list>
+  </div>
+</app-content-wrapper>
