@@ -11,6 +11,8 @@ import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsListComponent } from './components/shared/skills-list/skills-list.component';
+import { ContentHeaderComponent } from './components/shared/content-header/content-header.component';
+import { ContentWrapperComponent } from './components/shared/content-wrapper/content-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { SkillsListComponent } from './components/shared/skills-list/skills-list
     EducationComponent,
     SkillsComponent,
     SkillsListComponent,
+    ContentHeaderComponent,
+    ContentWrapperComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
