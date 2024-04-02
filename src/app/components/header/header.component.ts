@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { About } from '../Content';
-import { ContentService } from '../content.service';
+import { About } from '../../Content';
+import { ContentService } from '../../content.service';
 
 @Component({
   selector: 'app-header',

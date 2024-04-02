@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Education } from '../Content';
-import { ContentService } from '../content.service';
+import { Education } from '../../Content';
+import { ContentService } from '../../content.service';
 
 @Component({
   selector: 'app-education',

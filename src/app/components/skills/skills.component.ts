@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SkillCategory } from '../Content';
-import { ContentService } from '../content.service';
+import { SkillCategory } from '../../Content';
+import { ContentService } from '../../content.service';
 
 @Component({
   selector: 'app-skills',
