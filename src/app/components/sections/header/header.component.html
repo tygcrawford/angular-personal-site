@@ -11,17 +11,36 @@
     <p class="mt-4 max-w-xs leading-normal">{{ about?.blurb }}</p>
   </div>
   <nav></nav>
-  <ul id="socials" class="flex flex-row justify-start gap-1">
-    <li id="github" class="w-8 h-8 text-slate-400">
-      <svg>
-        <ng-icon name="ionLogoGithub"></ng-icon>
-      </svg>
+  <ul
+    id="socials"
+    class="text-3xl flex flex-row justify-start gap-4 mt-6 transition-colors lg:mt-0"
+  >
+    <li id="github">
+      <a href="https://github.com/tygcrawford" target="_blank">
+        <ng-icon
+          name="ionLogoGithub"
+          class="transition-all hover:text-slate-300 hover:scale-110"
+        ></ng-icon>
+      </a>
     </li>
-    <li id="linkedin" class="w-8 h-8 text-slate-400">
-      <img src="../../../../assets/icons/linkedin_icon.svg" />
+    <li id="linkedin">
+      <a
+        href="https://www.linkedin.com/in/ty-crawford-211312162/"
+        target="_blank"
+      >
+        <ng-icon
+          name="ionLogoLinkedin"
+          class="transition-all hover:text-slate-300 hover:scale-110"
+        ></ng-icon>
+      </a>
     </li>
-    <li id="codepen" class="w-8 h-8 text-slate-400">
-      <img src="../../../../assets/icons/codepen_icon.svg" />
+    <li id="codepen">
+      <a href="https://codepen.io/tygcrawford" target="_blank">
+        <ng-icon
+          name="ionLogoCodepen"
+          class="transition-all hover:text-slate-300 hover:scale-110"
+        ></ng-icon>
+      </a>
     </li>
   </ul>
 </div>
