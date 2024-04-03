@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SkillCategory } from '../../Content';
-import { ContentService } from '../../content.service';
+import { SkillCategory } from '../../../Content';
+import { ContentService } from '../../../content.service';
 
 @Component({
   selector: 'app-skills',
@@ -8,13 +8,13 @@ import { ContentService } from '../../content.service';
   styleUrls: ['./skills.component.sass'],
 })
 export class SkillsComponent {
-  skillCategorys?: SkillCategory[];
+  skillCategories?: SkillCategory[];
 
   constructor(private contentService: ContentService) {}
 
   ngOnInit() {
     this.contentService.getSkills().subscribe((skills) => {
-      this.skillCategorys = skills;
+      this.skillCategories = skills;
     });
   }
 }

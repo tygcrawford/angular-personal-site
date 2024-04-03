@@ -2,17 +2,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { AboutComponent } from './components/about/about.component';
-import { ExperienceComponent } from './components/experience/experience.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { EducationComponent } from './components/education/education.component';
-import { SkillsComponent } from './components/skills/skills.component';
+import { HeaderComponent } from './components/sections/header/header.component';
+import { AboutComponent } from './components/sections/about/about.component';
+import { ExperienceComponent } from './components/sections/experience/experience.component';
+import { ProjectsComponent } from './components/sections/projects/projects.component';
+import { FooterComponent } from './components/sections/footer/footer.component';
+import { EducationComponent } from './components/sections/education/education.component';
+import { SkillsComponent } from './components/sections/skills/skills.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsListComponent } from './components/shared/skills-list/skills-list.component';
 import { ContentHeaderComponent } from './components/shared/content-header/content-header.component';
 import { ContentWrapperComponent } from './components/shared/content-wrapper/content-wrapper.component';
+
+import { NgIconsModule } from '@ng-icons/core';
+import {
+  ionLogoGithub,
+  ionLogoLinkedin,
+  ionLogoCodepen,
+} from '@ng-icons/ionicons';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,11 @@ import { ContentWrapperComponent } from './components/shared/content-wrapper/con
     ContentHeaderComponent,
     ContentWrapperComponent,
   ],
-  imports: [BrowserModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    NgIconsModule.withIcons({ ionLogoGithub, ionLogoLinkedin, ionLogoCodepen }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
