@@ -1,6 +1,6 @@
 <app-content-wrapper>
   <app-content-header>Skills</app-content-header>
-  <div *ngFor="let skillCategory of skillCategorys">
+  <div *ngFor="let skillCategory of skillCategories">
     <h5>{{ skillCategory.name }}</h5>
     <app-skills-list [skills]="skillCategory.skills"></app-skills-list>
   </div>
