@@ -1,9 +1,16 @@
 <app-content-wrapper>
   <app-content-header>Projects</app-content-header>
-  <div *ngFor="let project of projects">
-    <h5>{{ project.name }}</h5>
-    <h6>{{ project.company }}</h6>
-    <p>{{ project.description }}</p>
-    <app-skills-list [skills]="project.skills"></app-skills-list>
+  <div class="flex flex-col gap-6">
+    <div
+      *ngFor="let project of projects"
+      class="bg-white p-6 border border-zinc-300 rounded-lg shadow-sm transition-transform hover:scale-[1.01]"
+    >
+      <div class="mb-4">
+        <h5>{{ project.name }}</h5>
+        <h6 class="font-semibold">{{ project.company }}</h6>
+      </div>
+      <p class="mb-4 text-zinc-600 font-light">{{ project.description }}</p>
+      <app-skills-list [skills]="project.skills"></app-skills-list>
+    </div>
   </div>
 </app-content-wrapper>
