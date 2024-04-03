@@ -1,0 +1,47 @@
+<div class="lg:flex lg:flex-col lg:justify-between lg:h-full">
+  <div id="header-title">
+    <img
+      src="../../../../assets/images/headshot.jpg"
+      class="w-48 h-48 object-cover rounded-3xl shadow-md"
+    />
+    <h1 class="mt-8 text-4xl font-serif sm:text-5xl">I'm {{ about?.name }}</h1>
+    <h2 class="mt-4 text-lg sm:text-xl">
+      {{ about?.title }}
+    </h2>
+    <p class="mt-2 max-w-xs leading-normal font-light sm:text-lg">
+      {{ about?.blurb }}
+    </p>
+  </div>
+  <ul
+    id="socials"
+    class="text-3xl flex flex-row justify-start gap-6 mt-6 transition-colors lg:mt-0"
+  >
+    <li id="github">
+      <a
+        href="https://github.com/tygcrawford"
+        target="_blank"
+        class="block p-2 bg-white border border-zinc-300 rounded-full shadow-sm leading-3 transition-transform hover:scale-110"
+      >
+        <ng-icon name="ionLogoGithub"></ng-icon>
+      </a>
+    </li>
+    <li id="linkedin">
+      <a
+        href="https://www.linkedin.com/in/ty-crawford-211312162/"
+        target="_blank"
+        class="block p-2 bg-white border border-zinc-300 rounded-full shadow-sm leading-3 transition-transform hover:scale-110"
+      >
+        <ng-icon name="ionLogoLinkedin"></ng-icon>
+      </a>
+    </li>
+    <li id="codepen">
+      <a
+        href="https://codepen.io/tygcrawford"
+        target="_blank"
+        class="block p-2 bg-white border border-zinc-300 rounded-full shadow-sm leading-3 transition-transform hover:scale-110"
+      >
+        <ng-icon name="ionLogoCodepen"></ng-icon>
+      </a>
+    </li>
+  </ul>
+</div>

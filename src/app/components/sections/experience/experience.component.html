@@ -1,0 +1,30 @@
+<app-content-wrapper>
+  <app-content-header>Experience</app-content-header>
+  <div class="flex flex-col gap-6">
+    <div
+      *ngFor="let experience of experiences"
+      class="bg-white p-6 border border-zinc-300 rounded-lg shadow-sm transition-transform hover:scale-[1.01]"
+    >
+      <div
+        class="items-center mb-4 sm:flex sm:flex-row sm:justify-between sm:items-center"
+      >
+        <div>
+          <h5>{{ experience.role }}</h5>
+          <h6 class="font-semibold">{{ experience.company }}</h6>
+        </div>
+        <div
+          class="flex flex-col sm:items-end text-zinc-600 font-light text-sm"
+        >
+          <span> {{ experience.startDate }} - {{ experience.endDate }} </span>
+          <span>
+            {{ experience.location }}
+          </span>
+        </div>
+      </div>
+      <p class="mb-4 text-zinc-600 font-light">
+        {{ experience.description }}
+      </p>
+      <app-skills-list [skills]="experience.skills"></app-skills-list>
+    </div>
+  </div>
+</app-content-wrapper>
