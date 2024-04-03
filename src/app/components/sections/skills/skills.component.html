@@ -1,7 +1,12 @@
 <app-content-wrapper>
   <app-content-header>Skills</app-content-header>
-  <div *ngFor="let skillCategory of skillCategories">
-    <h5>{{ skillCategory.name }}</h5>
-    <app-skills-list [skills]="skillCategory.skills"></app-skills-list>
+  <div class="flex flex-col gap-6">
+    <div
+      *ngFor="let skillCategory of skillCategories"
+      class="p-6 bg-white border border-zinc-300 rounded-lg shadow-sm transition-transform hover:scale-[1.01]"
+    >
+      <h5 class="font-semibold mb-4">{{ skillCategory.name }}</h5>
+      <app-skills-list [skills]="skillCategory.skills"></app-skills-list>
+    </div>
   </div>
 </app-content-wrapper>
