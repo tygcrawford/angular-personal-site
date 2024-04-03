@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Experience } from '../../Content';
-import { ContentService } from '../../content.service';
+import { Experience } from '../../../Content';
+import { ContentService } from '../../../content.service';
 
 @Component({
   selector: 'app-experience',

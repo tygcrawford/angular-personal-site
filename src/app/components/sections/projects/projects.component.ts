@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Project } from '../../Content';
-import { ContentService } from '../../content.service';
+import { Project } from '../../../Content';
+import { ContentService } from '../../../content.service';
 
 @Component({
   selector: 'app-projects',
